@@ -1,0 +1,70 @@
+/* 
+    Document   : newcss
+    Created on : Feb 16, 2013, 9:53:26 AM
+    Author     : Garrett
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+.left
+{
+margin-left:auto;
+margin-right:auto;
+width:70%;
+
+}
+
+.menus ul {
+  list-style-type: none;
+}
+
+.menus li {
+  width:150px;
+  padding:5px;
+  border:2px solid black;
+  margin:1px;
+  background-color: #C2AD99;
+  color:#00ff00;
+  font-size:18px;
+  float:left;
+  position:relative;
+  left: -20px;
+}
+
+.menus ul ul {
+  position:relative;
+  top: 5px;
+}
+  
+.menus ul ul ul {
+  position:relative;
+  left: 80px;
+  top: -20px;
+}
+
+.menus ul ul {
+  display:none;
+}
+
+.menus a {
+  text-decoration:none;
+}
+
+.menus li:hover {
+  font-family:"Arial", Times, serif;
+}
+
+.menus li:hover ul {
+  display:block;
+}
+
+.menus li:hover ul ul {
+  display:none;
+}
+
+.menus li li:hover ul {
+  display:block;
+}
+
